@@ -52,9 +52,15 @@ Les 3 codes sont : le ventilateur seul, les lumières seules, le reste (irrigati
 
 Toutes les librairies utilisées : 
 Adafruit BME280 Library
+
 Adafruit Unified Sensor
+
 ArduinoJson
+
 Async TCP
+
 BME280
+
 ESP Async WebServer
+
 ESP32 Servo
