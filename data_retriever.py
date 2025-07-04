@@ -10,7 +10,7 @@ with open('data.csv', 'w', newline='') as fichier:
     writer = csv.writer(fichier)
 
     # écriture du nom des colonnes
-    noms_colonnes = ["Date", "Temperature", "Soil moisture", "Air moisture"]
+    noms_colonnes = ["Date", "Temperature", "Soil moisture", "Air moisture","Luminosite"]
     writer.writerow(noms_colonnes)
 
 
@@ -26,6 +26,7 @@ with open('data.csv', 'w', newline='') as fichier:
             data["Temperature"],
             data["Soil moisture"],
             data["Air moisture"]
+            data["Luminosite"]
         ]
 
         writer.writerow(ligne)
