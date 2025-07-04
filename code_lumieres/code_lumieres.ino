@@ -23,14 +23,12 @@ void loop() {
 
 void eclairage(){
   if (luminosite > 450) {
-    // Si la luminosité est forte, couleur orange
     for (int i = 0; i < NUMPIXELS; i++) {
-      strip.setPixelColor(i, strip.Color(0, 0, 0)); // Orange
+      strip.setPixelColor(i, strip.Color(0, 0, 0));
     }
   } else {
-    // Sinon, couleur bleu clair
     for (int i = 0; i < NUMPIXELS; i++) {
-      strip.setPixelColor(i, strip.Color(240, 220, 200)); // Bleu clair
+      strip.setPixelColor(i, strip.Color(240, 220, 200));
     }
   }
   strip.show();
