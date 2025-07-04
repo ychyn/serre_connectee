@@ -47,7 +47,7 @@ Nous étions censés recevoir des valves à eau le deuxième jour mais étant do
 
 CODE : 
 Nous n'avons pas pu tout centraliser en 1 seul code car ça aurait impliqué de travailler avec 1 seule carte et donc de tester les fontionnalités 1 par 1 or nous n'avions pas énormément de temps et les alimentations à utiliser n'avaient pas le même voltage. Nous avons donc utilisé 2 cartes et écrit 3 codes en parallèle que nous n'avons pas eu le temps de combiner.
-Les 3 codes sont : le ventilateur seul, les lumières seules, le reste (irrigation, écran, récupération des données).
+Les 3 codes sont : le ventilateur seul, les lumières seules, le reste (irrigation, écran, récupération des données) dans le main.
 
 
 Toutes les librairies utilisées : 
